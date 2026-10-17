@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT - Massachusetts Institute of Technology</title>
+    <!-- Font: Archivo (judul tebal) + JetBrains Mono (teks) sesuai desain -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="mit-logo.png">
+</head>
+
+<body>
+    <!-- ===================== NAVBAR ===================== -->
+    <header class="navbar" id="navbar">
+        <a href="#home" class="nav-logo">
+            <img src="mit-logo.png" alt="MIT - Massachusetts Institute of Technology">
+        </a>
+
+        <nav class="nav-links" id="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#research">Research</a>
+            <a href="#innovation">Innovation</a>
+            <a href="#about">About MIT</a>
+        </nav>
+
+        <div class="nav-right">
+            <label class="nav-search">
+                <input type="text" placeholder="Search...">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+            </label>
+            <a href="#about" class="btn-apply">Apply</a>
+            <button class="nav-burger" id="nav-burger" aria-label="Buka menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title anim-1">MENS ET<br>MANUS</h1>
+            <p class="hero-text anim-2">Massachusetts Institute of Technology is dedicated to
+                advancing knowledge and educating students in science,
+                technology, and beyond.</p>
+            <a href="#education" class="btn-primary anim-3">EXPLORE PROGRAMS</a>
+
+            <div class="hero-stats anim-4">
+                <div class="stat">
+                    <span class="stat-num">1,000+</span>
+                    <span class="stat-label">Faculty Members</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">98%</span>
+                    <span class="stat-label">Employment Rate</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-num">50+</span>
+                    <span class="stat-label">Research Lab</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <!-- ===================== EDUCATION ===================== -->
+        <section class="feature" id="education">
+            <div class="feature-inner reveal">
+                <span class="feature-label">02 &mdash; EDUCATION</span>
+                <h2 class="feature-title">EDUCATION</h2>
+                <p class="feature-text">Our undergraduate and graduate programs combine rigorous
+                    academic foundations with hands-on, project-based learning. Students work
+                    alongside world-class faculty to solve real-world problems from day one.</p>
+
+                <div class="feature-stats">
+                    <div class="stat">
+                        <span class="stat-num">40+</span>
+                        <span class="stat-label">UNDERGRADUATE PROGRAMS</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">50+</span>
+                        <span class="stat-label">GRADUATE PROGRAMS</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">11.000+</span>
+                        <span class="stat-label">TOTAL STUDENTS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== RESEARCH ===================== -->
+        <section class="feature" id="research">
+            <div class="feature-inner reveal">
+                <span class="feature-label">03 &mdash; RESEARCH</span>
+                <h2 class="feature-title">RESEARCH</h2>
+                <p class="feature-text">Research here isn't confined to a single department. It
+                    happens at the intersections &mdash; where computer
+                    science meets biology, where engineering meets policy &mdash; producing
+                    breakthroughs no single field could reach alone.</p>
+
+                <ul class="research-grid">
+                    <li>ARTIFICIAL INTELLIGENCE</li>
+                    <li>CANCER RESEARCH</li>
+                    <li>QUANTUM PHYSICS</li>
+                    <li>SUSTAINABLE ENERGY</li>
+                    <li>ECONOMICS</li>
+                    <li>NEUROSCIENCE</li>
+                </ul>
+
+                <div class="feature-footer">
+                    <span class="footer-line"></span>
+                    <span class="footer-note">6+ INTERDISCIPLINARY CENTERS</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== INNOVATION ===================== -->
+        <section class="feature" id="innovation">
+            <div class="feature-inner reveal">
+                <span class="feature-label">04 &mdash; INNOVATION</span>
+                <h2 class="feature-title">INNOVATION</h2>
+                <p class="feature-text">We don't just predict the future; we build it. MIT's
+                    innovation ecosystem turns bold ideas into scalable
+                    solutions, fostering a culture of entrepreneurship that has launched
+                    thousands of active companies worldwide.</p>
+
+                <div class="feature-stats">
+                    <div class="stat">
+                        <span class="stat-num">30,000+</span>
+                        <span class="stat-label">ACTIVE ALUMNI COMPANIES</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">$1.9T</span>
+                        <span class="stat-label">ANNUAL REVENUE GENERATED</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== ABOUT MIT ===================== -->
+        <section class="feature" id="about">
+            <div class="feature-inner reveal">
+                <span class="feature-label">05 &mdash; ABOUT MIT</span>
+                <h2 class="feature-title">ABOUT MIT</h2>
+                <p class="feature-text">A community of hands-on problem solvers in love with
+                    fundamental science and eager to make
+                    the world a better place. Founded in 1861, MIT has remained true to its
+                    mission of service to humanity.</p>
+
+                <blockquote class="quote">
+                    "Working with others to bring knowledge to bear
+                    on the world's great challenges."
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <img src="mit-logo.png" alt="MIT logo">
+                <p>77 Massachusetts Avenue,<br>Cambridge, MA 02139</p>
+            </div>
+
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <h4>VISIT</h4>
+                    <a href="#">Maps</a>
+                    <a href="#">Tours</a>
+                </div>
+                <div class="footer-col">
+                    <h4>PEOPLE</h4>
+                    <a href="#">Faculty</a>
+                    <a href="#">Students</a>
+                </div>
+                <div class="footer-col">
+                    <h4>INFORMATION</h4>
+                    <a href="#">Admissions</a>
+                    <a href="#">Alumni</a>
+                </div>
+                <div class="footer-col">
+                    <h4>SOCIAL</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.3c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.5V14h2.6v8h3.4z"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer-copy">&copy; 2026 MASSACHUSETTS INSTITUTE OF TECHNOLOGY</p>
+    </footer>
+
+    <script>
+        // ===== NAV: burger menu (HP) =====
+        const burger = document.getElementById('nav-burger');
+        const links = document.getElementById('nav-links');
+
+        burger.addEventListener('click', () => {
+            links.classList.toggle('open');
+            burger.classList.toggle('active');
+        });
+
+        // ===== NAV: menu aktif mengikuti section yang terlihat =====
+        const sections = document.querySelectorAll('section[id]');
+        const navAnchors = document.querySelectorAll('.nav-links a');
+
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    navAnchors.forEach(a => a.classList.remove('active'));
+                    const match = document.querySelector('.nav-links a[href="#' + entry.target.id + '"]');
+                    if (match) match.classList.add('active');
+                }
+            });
+        }, { threshold: 0.4 });
+
+        sections.forEach(s => sectionObserver.observe(s));
+
+        // ===== NAV: sedikit transparan saat di atas, solid saat scroll =====
+        window.addEventListener('scroll', () => {
+            document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+        });
+
+        // ===== ANIMASI SCROLL =====
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.2 });
+
+        document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+        // ===== Smooth scroll untuk tautan section =====
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', (e) => {
+                const target = document.querySelector(a.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    links.classList.remove('open');
+                    burger.classList.remove('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
