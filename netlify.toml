@@ -1,6 +1,6 @@
 
 [build]
-    publish = "."
+    publish = "Landing-page"
 
 [[redirects]]
     from = "/"
